@@ -17,9 +17,9 @@ export default function App() {
   return (
     <div>
       {data ? (
-        <img src={data} alt="Random Dog" />
+        <img src={data}  />
       ) : (
-        <p>Loading data ...</p>
+        <p>Loading data please wait ...</p>
       )}
     </div>
   );
