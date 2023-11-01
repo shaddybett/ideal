@@ -1,8 +1,9 @@
 import React from 'react'
+import './Style.css'
 
 export default function Header() {
   return (
-    <div>
+    <div id='head'>
         <h1>Bank transactions</h1>
     </div>
   )
